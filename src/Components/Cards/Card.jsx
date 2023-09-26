@@ -15,7 +15,8 @@ const Card = ({card}) => {
       <button className="text-start  w-max p-1 mt-3 mx-4 " style={{backgroundColor:category_bg_color}}>{category}</button>
    
   <div className="card-body">
-    <h2 className="card-title" style={{color:text_button_bg_color}} >{title}</h2>
+    <h2 className="card-title -mx-5" style={{color:text_button_bg_color}} >{title}</h2>
+    
   </div>
 </div>
         </div>

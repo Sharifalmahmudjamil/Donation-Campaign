@@ -19,7 +19,7 @@ const CardShow = ({card}) => {
     if (!donation) {
       addedDonationArray.push(card);
       localStorage.setItem("donation", JSON.stringify(addedDonationArray));
-      swal("Good job!", "Products added successfully!", "success");
+      swal("Good job!", "donation added successfully!", "success");
     } 
     
     else {
