@@ -1,0 +1,136 @@
+ [
+      {
+        "id": 1,
+        "picture": "https://i.ibb.co/p2s2tM2/Health.png",
+        "title": "Clean Water for All",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg_color": "#0052FF",
+        "description": "Help provide clean and safe drinking water to communities in need.",
+        "price": 25
+      },
+      {
+        "id": 2,
+        "picture": "https://i.ibb.co/G231PZ3/Rectangle-4288.png",
+        "title": "Feeding the Hungry",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_button_bg_color": "#FF444A",
+        "description": "Support our mission to end hunger by providing nutritious meals to those in need.",
+        "price": 20
+      },
+      {
+        "id": 3,
+        "picture": "https://i.ibb.co/F5ypN7D/Clothing.png",
+        "title": "Educate a Child",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Give a child the gift of education and a brighter future.",
+        "price": 30
+      },
+      {
+        "id": 4,
+        "picture": "https://i.ibb.co/QCLLv18/Food.png",
+        "title": "Medical Care for All",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Provide access to quality healthcare for underserved communities.",
+        "price": 50
+      },
+      {
+        "id": 5,
+        "picture": "https://i.ibb.co/QCLLv18/Food.png",
+        "title": "Shelter for the Homeless",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Help provide safe and stable housing for homeless individuals and families.",
+        "price": 40
+      },
+      {
+        "id": 6,
+        "picture": "https://i.ibb.co/F5ypN7D/Clothing.png",
+        "title": "Protect the Environment",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Support initiatives to preserve and protect our natural environment.",
+        "price": 15
+      },
+      {
+        "id": 7,
+        "picture": "https://i.ibb.co/G231PZ3/Rectangle-4288.png",
+        "title": "Animal Welfare",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_button_bg_color": "#FF444A",
+        "description": "Help care for and protect animals in need of assistance.",
+        "price": 20
+      },
+      {
+        "id": 8,
+        "picture": "https://i.ibb.co/p2s2tM2/Health.png",
+        "title": "Empower Women",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg_color": "#0052FF",
+        "description": "Support programs that empower women and promote gender equality.",
+        "price": 25
+      },
+      {
+        "id": 9,
+        "picture": "https://i.ibb.co/p2s2tM2/Health.png",
+        "title": "Disaster Relief",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg_color": "#0052FF",
+        "description": "Provide aid to communities affected by natural disasters and emergencies.",
+        "price": 30
+      },
+      {
+        "id": 10,
+        "picture": "https://i.ibb.co/G231PZ3/Rectangle-4288.png",
+        "title": "Support the Arts",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_button_bg_color": "#FF444A",
+        "description": "Promote and fund artistic and cultural endeavors in your community.",
+        "price": 15
+      },
+      {
+        "id": 11,
+        "picture": "https://i.ibb.co/F5ypN7D/Clothing.png",
+        "title": "Tech Education for Kids",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Support STEM education programs to inspire and educate young minds.",
+        "price": 25
+      },
+      {
+        "id": 12,
+        "picture": "https://i.ibb.co/QCLLv18/Food.png",
+        "title": "Clean Energy Initiatives",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Contribute to clean energy projects and reduce our carbon footprint.",
+        "price": 35
+      }
+    ]
+  
+  
