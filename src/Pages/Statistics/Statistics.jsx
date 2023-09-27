@@ -41,7 +41,9 @@ const Statistics = () => {
       };
       
       return (
-        <div className=" flex justify-center">
+            
+
+        <div className=" lg:flex lg:justify-center">
             <PieChart width={400} height={400}>
                 <Pie
                   data={data}
@@ -57,10 +59,27 @@ const Statistics = () => {
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>
-                
               </PieChart>
+              
+              <div className=" mx-16 lg:-ml-72 "> Your Donation
+                <progress className="progress progress-success w-32" value="100" max="100"></progress>
+                </div>
+
+               
+                    <div className="mt-10 mx-16 lg:-ml-72">Total donation
+                    <progress className="progress progress-error w-32" value="100" max="100"></progress>
+                    </div>
+                    
+
+                
+                
+                
+             
         </div>
+        
+        
     );
+    
      
       };
 
