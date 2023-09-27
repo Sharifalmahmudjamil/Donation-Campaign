@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-// import CardShow from "../Singlecard/CardShow";
+
 import DonationCard from "./DonationCard";
 
 
@@ -32,8 +32,8 @@ const Donation = () => {
 
                 <div className=" grid grid-cols-1 lg:grid-cols-2 gap-5 ">
                 {
-                    
-                    donation.slice(0,isShowAll).map(card => <DonationCard key={card.id} card={card}
+                     
+                     donation.slice(0,isShowAll).map(card => <DonationCard key={card.id} card={card}
                         ></DonationCard>)
                 } 
 
@@ -41,9 +41,20 @@ const Donation = () => {
                  
                  </div>
                  <div className={isShowAll ===donation.length && 'hidden'}>
-                 <button onClick={()=>setIsShowAll(donation.length)} className="btn font-medium bg-green-500 block mx-auto mt-6 ">See All</button>
+
+                {
+                    donation.length>4 &&(
+                        <button onClick={()=>setIsShowAll(donation.length)} className="btn font-medium bg-green-500 block mx-auto mt-6 ">See All</button>
+                    )
+                       
+
+                    
+                }
+                    
+                    
                  </div>
                 </div>}
+              
         </div>
     );
 };
