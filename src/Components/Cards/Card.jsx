@@ -1,10 +1,13 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 
 const Card = ({card}) => {
    
 
-    const {id,picture,title,category,category_bg_color,card_bg_color,text_button_bg_color,price}= card ||{}
+    const {id,picture,title,category,category_bg_color,card_bg_color,text_button_bg_color}= card ||{}
+
+    
     return (
     <Link to={`/cards/${id}`}>
     

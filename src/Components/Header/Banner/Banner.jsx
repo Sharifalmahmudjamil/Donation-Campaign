@@ -1,6 +1,10 @@
+/* eslint-disable react/prop-types */
+
+
 
 
 const Banner = () => {
+
     return (
  <div>
     <div className="hero min-h-screen" style={{backgroundImage: 'url(https://i.ibb.co/D8hRwVK/Rectangle-4281.png)'}}>
@@ -10,16 +14,15 @@ const Banner = () => {
       <h1 className="mb-5 text-3xl font-bold text-black">I Grow By Helping People In Need</h1>
 
 <div className="display: flex;">
-            <input className="border rounded-xl" type="text" id="searchInput" placeholder="Search here....."/>
-            <button className="btn  btn-sm btn-error mx-2">Search</button>
+            <input className="border rounded-xl" type="text" id="searchInput" placeholder="Search here....." />
+            <button  className="btn  btn-sm btn-error mx-2">Search</button>
         </div>
-
-
-
-   
     </div>
   </div>
 </div>
+
+      
+  
  </div>
     );
 };
