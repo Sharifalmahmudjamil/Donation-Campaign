@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 
+import { HelmetProvider } from "react-helmet-async";
 import swal from "sweetalert";
 
 
@@ -57,6 +58,9 @@ const CardShow = ({card}) => {
  <p>{description}</p>
 </div>
 </div>
+<HelmetProvider>
+                <title>Donation Details:{id}</title>
+            </HelmetProvider>
      </div>
     );
 };

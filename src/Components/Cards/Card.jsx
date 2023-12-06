@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+
 import { Link } from "react-router-dom";
 
 
@@ -21,9 +22,12 @@ const Card = ({card}) => {
     <h2 className="card-title -mx-5" style={{color:text_button_bg_color}} >{title}</h2>
     
   </div>
+
 </div>
+          
         </div>
     </Link>
+     
     );
 };
 

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 
 import DonationCard from "./DonationCard";
+import { HelmetProvider } from "react-helmet-async";
 
 
 const Donation = () => {
@@ -29,6 +30,7 @@ const Donation = () => {
     return (
         
         <div>
+
             {noFound? <p className="text-5xl h-[80vh] flex justify-center items-center">{noFound}</p>: <div>
 
                 <div className=" grid grid-cols-1 lg:grid-cols-2 gap-5 ">
@@ -56,6 +58,10 @@ const Donation = () => {
                  </div>
 
                 </div>}
+
+                <HelmetProvider>
+                <title>Donation Campaign || Donation</title>
+            </HelmetProvider>
                
         </div>
     );

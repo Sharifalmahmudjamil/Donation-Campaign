@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import React, { PureComponent } from 'react';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import { HelmetProvider } from "react-helmet-async";
 
 
 
@@ -73,7 +74,9 @@ const Statistics = () => {
                     
 
                 
-                
+                    <HelmetProvider>
+                <title>Donation Campaign || Statistics</title>
+            </HelmetProvider>
                 
              
         </div>
